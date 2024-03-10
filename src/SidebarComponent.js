@@ -64,7 +64,7 @@ const Sidebar = () => {
         </div>
         <div className="side-tab-card">
           <div>
-            <img src="https://public-v2links.adobecc.com/db0dd67f-56d4-41e6-47d5-3c0546f8ae2b/component?params=component_id%3Ab4b17cce-2418-4f50-b204-053668450391&params=version%3A0&token=1710053326_da39a3ee_84e4fc09bc1547125779cd29824589910c45fdcf&api_key=CometServer1" />
+            <img src="https://public-v2links.adobecc.com/db0dd67f-56d4-41e6-47d5-3c0546f8ae2b/component?params=component_id%3A692c3b0e-8277-4e5d-a8c8-4184d1effeb9&params=version%3A0&token=1710170325_da39a3ee_f2c98b44951e9c440519fbe090c9ce15969645e4&api_key=CometServer1" alt="My inventary" />
           </div>
           <div>
             <label>My Inventory</label>
