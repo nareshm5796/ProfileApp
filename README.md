@@ -11,6 +11,6 @@ To Run this project please Follow :
 
 
 <!-- *********************** -->
-This a react app created by Naresh M.
+This is a react app created by Naresh M.
 
 
