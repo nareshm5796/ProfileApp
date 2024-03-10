@@ -1,0 +1,255 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.icon-card {
+  display: flex;
+}
+.icon-card span {
+  margin-left: 20px;
+}
+.navtabs {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navtabs li {
+  margin-right: 10px;
+}
+
+.forever-img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.side-nav-card {
+  background-color: rgb(50, 55, 59);
+  width: 200px;
+  height: 90vh;
+  color: rgb(144, 148, 152);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-a {
+  display: flex;
+  margin-bottom: 0px;
+}
+.card-a img {
+  border-radius: 30px;
+  border-color: rgb(157, 167, 175);
+  height: 40px;
+}
+.side-tab-card {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 12px;
+}
+.side-tab-card label {
+  margin-left: 10px;
+  color: rgb(144, 148, 152);
+}
+.main-card {
+  display: flex;
+}
+.content-card {
+  background-color: rgb(230, 229, 229);
+  width: 80vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dashbord-card {
+  padding: 5px;
+}
+
+.content-card span {
+  color: rgb(14, 153, 208);
+}
+.inner-content-card {
+  background-color: white;
+  height: 80vh;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.account-card {
+  display: flex;
+}
+.account-card h4 {
+  margin-left: 10px;
+}
+.profile-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(225, 230, 234);
+  padding: 10px;
+}
+.img-card {
+  position: relative;
+}
+.img-card img {
+  height: 70px;
+  width: 70px;
+  border-radius: 30px;
+}
+.edit-card {
+  position: absolute;
+  margin-bottom: -20px;
+  bottom: 0;
+  right: 0;
+}
+.contact-card h6,
+label {
+  color: greenyellow;
+}
+
+.profile-img-a {
+  display: flex;
+}
+.edit-card img {
+  height: 20px;
+  width: 20px;
+}
+h6 {
+  color: rgb(168, 175, 181);
+}
+
+.profile-img-a h6 {
+  color: rgb(168, 175, 181);
+}
+.paragraph {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.inner-left-card {
+  font-size: 8px;
+  width: 35vw;
+  background-color: rgb(242, 245, 245);
+  padding: 10px;
+}
+.setting-cards {
+  display: flex;
+  justify-content: space-around;
+}
+.setting-cards img {
+  margin-left: 5%;
+}
+.s-card {
+  display: flex;
+  justify-content: space-between;
+}
+.text-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.text-card h6 {
+  color: rgb(171, 174, 174);
+}
+.password-card h6 {
+  color: blue;
+}
+.detail-card {
+  background-color: white;
+  padding: 10px;
+}
+.disc {
+  height: 8px;
+  background-color: rgb(249, 241, 241);
+  border-radius: 30px;
+  width: 8px;
+  border: 4px solid green;
+}
+.disc-b {
+  border: 4px solid gray;
+}
+.input-card {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+.input-card h4 {
+  padding-left: 10px;
+}
+.copy-right-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid rgb(242, 245, 245);
+}
+.copy-right-card label {
+  color: black;
+}
+.copy-right-card ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.copy-right-card ul li {
+  padding-left: 10px;
+}
+.inner-card-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hide-tabs ul {
+  display: flex;
+  list-style: none;
+  font-size: 13px;
+  background-color: white;
+  border-top: 1px solid rgb(230, 229, 229);
+}
+.hide-tabs ul li {
+  padding-right: 5px;
+  padding: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .navtabs {
+    display: none;
+  }
+  .menu-simble {
+    order: -1;
+    margin-right: 100px;
+  }
+  .side-nav-card {
+    display: none;
+  }
+  .paragraph {
+    width: 300px;
+  }
+  .setting-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inner-left-card {
+    width: 250px;
+  }
+  .text-card {
+    flex-direction: column;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+  .password-card {
+    align-self: flex-end;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hide-tabs {
+    display: none;
+  }
+}
